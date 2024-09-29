@@ -1,0 +1,55 @@
+/* Tip Calculator */
+.container {
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #fff0f6;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border: 2px solid #ff85c0;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  background-color: #ff85c0;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff85c0;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#result span {
+  color: #ff85c0;
+}
+
+#result span:last-child {
+  color: #ff85c0;
+}

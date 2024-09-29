@@ -1,0 +1,82 @@
+/* General styling */
+body {
+  background-color: #2e57a8;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container styling */
+.container {
+  width: 500px;
+  background-color: #fff0f6;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border: 2px solid #ff85c0;
+  text-align: center;
+}
+
+/* Heading styling */
+h2 {
+  color: #ff85c0;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+/* Form styling */
+.love-calculator {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #ff85c0;
+}
+
+input[type="text"] {
+  width: 95%;
+  padding: 10px;
+  margin-top: 10px;
+  color: #ff85c0;
+}
+
+/* Button styling */
+button {
+  background-color: #ff85c0;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Result styling */
+#result {
+  margin-top: 10px;
+  font-size: 22px;
+  color: #ff85c0;
+}
+
+/* Developer name styling */
+.developer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+
+h6 {
+  margin: 0;
+  padding: 5px;
+  color: #c07f10;
+}
